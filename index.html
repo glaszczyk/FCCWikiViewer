@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FCC Wiki Viewer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="wiki-app">
+	<h1 class="wiki-app__title">Wikipedia viewer</h1>
+	<form class="wiki-app__search-group" action="http://en.wikipedia.org/wiki/Special:Random" method="GET">
+		<div class="wiki-app__search-wrapper">
+			<input class="wiki-app__keyword" id="keyword" type="text" name="keyword" placeholder="Type or click icon for random query">
+			<button class="wiki-app__icon ion-ios-search"></button>
+		</div>
+	</form>
+	<hr class="wiki-app__separator">
+	<section class="wiki-app__articles">
+		<p class="wiki-app__hint">Type keyword or click icon for random query</p>
+	</section>
+<!-- script -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

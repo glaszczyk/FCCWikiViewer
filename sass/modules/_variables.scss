@@ -1,0 +1,29 @@
+$mobile: 400px; 
+$tablet: 768px;
+$desktop:960px;
+
+$fontSizeDesktop: 1em;
+$fontSizeTablet: $fontSizeDesktop * 1;
+$fontSizeMobile: $fontSizeDesktop * 0.9;
+
+
+$unitX: 20px;
+
+$desktopColors: (
+	colorPrimary: #00BCD4,
+	colorAccent: #FF9800,
+	colorLight: #E0F7FA,
+	colorDark: #00838F
+);
+$tabletColors: (
+	colorPrimary: #009688,
+	colorAccent: #f44336,
+	colorLight: #E0F2F1,
+	colorDark: #00695C
+);
+$mobileColors: (
+	colorPrimary: #607D8B,
+	colorAccent: #E91E63,
+	colorLight: #E0F7FA,
+	colorDark: #37474F
+);
